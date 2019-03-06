@@ -262,6 +262,7 @@ public abstract class ChartBaseManager<T extends Chart, U extends Entry> extends
             return;
         }
 
+
         RNRectangleMarkerView marker = new RNRectangleMarkerView(chart.getContext());
         marker.setChartView(chart);
 
